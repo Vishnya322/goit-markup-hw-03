@@ -10,7 +10,9 @@ ul,ol {
 }
 
 img {
-        display: block;
+        display: block; 
+        max-width: 100%; 
+        height: auto;
 }
 
 .container {
@@ -22,6 +24,8 @@ img {
 .header-flax {
         display: flex;
         align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 
@@ -32,6 +36,15 @@ img {
 
 .list {
         list-style-type: none;
+}
+
+.nav-list-menu {
+        display: flex;
+        align-items: flex-start;
+        column-gap: 40px;
+        width: 100%;
+        max-width: 785px;
+        justify-content: space-between;
 }
 
 body {
@@ -52,6 +65,7 @@ background: #FFF;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
 }
 
 .studio {
@@ -71,8 +85,25 @@ background: #FFF;
 .nav-list:focus { 
         color: #404bbf
 }
+
+.navigation-items  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+                
+}
+
 .top-adress {
         font-style: normal;
+        margin-left: auto;
+}
+
+
+.top-adress-flex {
+        display:flex;
+        align-items:center;
+        gap: 40px;
+        
 }
 
 .header-address-link {
@@ -90,7 +121,10 @@ background: #FFF;
 
 .top-section {
     background:  #2E2F42;
-}
+    padding-top: 196.15px;
+    padding-bottom: 196.15px;
+    padding-left: 469.71px;
+    }
 .top-section-title {
         color:  #FFF;
         text-align: center;
@@ -98,7 +132,8 @@ background: #FFF;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
-}
+        width: 493.589px;
+        }
 
 .button {
         font-family: "Roboto", sans-serif;
@@ -109,6 +144,11 @@ background: #FFF;
         color: #FFF;
         background: #4D5AE5;
         cursor: pointer;
+        text-align: center;
+        padding: 16px 32px;
+        align-items: center;
+        margin-left: 170px;
+        margin-right: 631.91px;
 }
 
 .button:hover,
@@ -117,7 +157,32 @@ background: #FFF;
 }
 .section-title {
 background: #FFF;
+padding-top: 120px;
+padding-bottom: 120px;
+
 }
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.advantages-list {
+        display: flex;
+        column-gap: 24px;
+        }
+
+.advantages-list-item {
+        width: calc((100%-72)/4);
+}
+
 
 .section-title-item {
         color: #2e2f42;
@@ -125,6 +190,7 @@ background: #FFF;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 
 .title-item-text {
@@ -138,6 +204,13 @@ background: #FFF;
     background: #F4F4FD;
 }
 
+.ourteam-section-flax {
+       display: flex;
+       column-gap: 24px;
+
+}
+
+
 .ourteam-title {
         color:  #2E2F42;
         text-align: center;
@@ -146,6 +219,9 @@ background: #FFF;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        text-align: center;
+        padding-top: 120px;
+        padding-bottom: 32px;
 }
 
 .teamcard {
@@ -158,6 +234,8 @@ background: #FFF;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        padding-top: 32px;
 }
 
 .teamcard-position {
@@ -166,6 +244,8 @@ background: #FFF;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
+        padding-bottom: 32px;
 }
 
 .portfolio {
@@ -180,12 +260,33 @@ background: #FFF;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        padding-top: 120px;
+        padding-bottom: 72px;
 }
 
 .project-card {
         background: #FFF;
-           
+        width: calc((100%-72)/4);
+     }
+
+.project-card-list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 48px;
+        column-gap: 24px;
+        }
+
+.card-text-flex {
+        display: flex;
+        padding: 32px 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+             
 }
+
+
 
 .project-card-title {
         color: #2E2F42;
@@ -219,8 +320,20 @@ background: var(--navyblue, #2E2F42);
 
 .footer-text {
                 color: #F4F4FD;
-                font-size: 16px;
                 font-weight: 400;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
+                width: 264px;
+                padding-top: 16px;
+                padding-bottom: 100px;
+                
+                }
+
+.web-futer {
+        display: flex;
+        padding: 100px;
+        padding-bottom: 16px;
+        padding-left: 0;
 }
+              
+
+        
+        
