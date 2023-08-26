@@ -17,7 +17,7 @@ img {
 
 .container {
         width: 1158px;
-        padding: 0 15px 0 15px;
+        padding: 0 15px;
         margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ img {
         align-items: center;
         padding-top: 24px;
         padding-bottom: 24px;
-        border-bottom: 1px solid #e7e9fc;
+        
 }
 
 
@@ -46,7 +46,7 @@ img {
         width: 100%;
         max-width: 785px;
         justify-content: space-between;
-        padding: 24px 0;
+        
 }
 
 body {
@@ -57,6 +57,7 @@ body {
 
 .top-line {
 background: #FFF;
+border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -81,7 +82,7 @@ background: #FFF;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        
+        padding: 24px 0;
 }
 
 .nav-list:hover,   
@@ -263,7 +264,8 @@ padding: 120px 0;
 }
 .portfolio {
         background: #FFF;
-        padding: 120px 0 120px 0)
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .portfolio-header {
@@ -275,12 +277,12 @@ padding: 120px 0;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .project-card {
         background: #FFF;
-        width: calc((100% - 72px) / 3);
+        width: calc((100% - 48px) / 3);
      }
 
 .project-card-border {
