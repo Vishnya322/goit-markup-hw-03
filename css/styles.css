@@ -17,17 +17,17 @@ img {
 
 .container {
         width: 1158px;
-        padding: 0 15px;
         margin: 0 auto;
-}
+        padding-left: 15px; 
+        padding-right: 15px;
+        }
 
 .header-flax {
         display: flex;
         align-items: center;
         padding-top: 24px;
         padding-bottom: 24px;
-        
-}
+   }
 
 
 
@@ -126,7 +126,12 @@ border-bottom: 1px solid #e7e9fc;
 .top-section {
     background:  #2E2F42;
     padding: 188px 0;
-    }
+        }
+.solution-cont {
+        padding-left: 300px;
+       
+}
+
 .top-section-title {
         color:  #FFF;
         text-align: center;
@@ -135,7 +140,8 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 496px;
-        }
+        width: 493.589px;
+                }
 
 .button {
         font-family: "Roboto", sans-serif;
