@@ -285,8 +285,8 @@ padding: 120px 0;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         padding-top: 120px;
-        padding-bottom: 72px;
-        margin-bottom: 8px
+        margin-bottom: 72px;
+        
 }
 
 .project-card {
@@ -311,6 +311,7 @@ padding: 120px 0;
         gap: 8px;
         border: 1px solid #e7e9fc;
         border-top: none;
+        margin-bottom: 8px
 }
 
 .project-card-title {
