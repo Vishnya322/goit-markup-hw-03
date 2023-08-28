@@ -1,3 +1,5 @@
+/* Defolt-class */
+
 h1,h2,h3,p {
         margin-top: 0;
         margin-bottom: 0;
@@ -38,6 +40,15 @@ img {
         list-style-type: none;
 }
 
+/* Bodi */
+body {
+        font-family: "Roboto", sans-serif;
+        color: #434455;
+        background: #FFF;
+}
+
+/* Header */
+
 .nav-list-menu {
         display: flex;
         align-items: flex-start;
@@ -48,16 +59,9 @@ img {
         
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background: #FFF;
-}
-
 .top-line {
         border-bottom: 1px solid #e7e9fc;
-        
-
+ 
 }
 
 .logo {
@@ -74,7 +78,6 @@ body {
 
 .studio {
     color: #2E2F42;
-        
 }
 
 .nav-list {
@@ -125,6 +128,8 @@ body {
         color: #404bbf;
 }
 
+/* Section 1 */
+
 .top-section {
     background:  #2E2F42;
     padding: 188px 0;
@@ -143,9 +148,9 @@ body {
         letter-spacing: 0.02em;
         max-width: 496px;
         margin: 0 auto;
-        margin-bottom: 12px;
+        margin-bottom: 48px;
         
-                }
+        }
 
 .button {
         font-family: "Roboto", sans-serif;
@@ -171,6 +176,9 @@ body {
 .button:focus {
         background-color: #404BBF;
 }
+
+/* Section 2 */
+
 .section-title {
 background: #FFF;
 padding-top: 120px;
@@ -215,6 +223,9 @@ padding-bottom: 120px;
         letter-spacing: 0.02em;
 }
 
+
+/* Section 3 */
+
 .ourteam-section {
     background: #F4F4FD;
 padding: 120px 0;
@@ -225,7 +236,6 @@ padding: 120px 0;
        gap: 24px;
 
 }
-
 
 .ourteam-title {
         color:  #2E2F42;
@@ -266,8 +276,10 @@ padding: 120px 0;
 }
 .teamcard-text {
         padding: 32px 0;
-
 }
+
+/* Section 4 */
+
 .portfolio {
         background: #FFF;
         padding-top: 120px;
@@ -323,6 +335,9 @@ padding: 120px 0;
         letter-spacing: 0.02em;
 }
 
+
+/* Footer */
+
 .under-page {
 background: var(--navyblue, #2E2F42);
 padding: 100px 0;
@@ -343,10 +358,7 @@ padding: 100px 0;
                 width: 264px;
                 line-height: 24px;
                 letter-spacing: 0.32px;
-                
-                
-                
-                }
+                 }
 
 .web-futer {
         display: inline-block;
