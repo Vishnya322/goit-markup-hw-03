@@ -24,9 +24,8 @@ img {
 
 .header-flax {
         display: flex;
-        
-        
-        
+        align-items: center;
+                
    }
 
 
@@ -56,15 +55,13 @@ body {
 }
 
 .top-line {
-        background: #FFF;
         border-bottom: 1px solid #e7e9fc;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        
 
 }
 
 .logo {
-    color: #4D5AE5;
+        color: #4D5AE5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -72,6 +69,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
+        display: block;
 }
 
 .studio {
@@ -86,6 +84,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         padding: 24px 0;
+        display: block ;
 }
 
 .nav-list:hover,   
@@ -131,7 +130,7 @@ body {
     padding: 188px 0;
         }
 .solution-cont {
-        padding-left: 300px;
+        align-items: center;
        
 }
 
@@ -143,7 +142,9 @@ body {
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 496px;
-        width: 493.589px;
+        margin: 0 auto;
+        margin-bottom: 12px;
+        
                 }
 
 .button {
@@ -162,9 +163,8 @@ body {
         border-radius: 4px;
         text-align: center;
         padding: 16px 32px;
-        align-items: center;
-        margin-left: 170px;
-        margin-right: 631.91px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .button:hover,
@@ -236,8 +236,6 @@ padding: 120px 0;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
-        padding-top: 120px;
-        padding-bottom: 32px;
         margin-bottom: 72px;
 }
 
@@ -284,7 +282,6 @@ padding: 120px 0;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding-top: 120px;
         margin-bottom: 72px;
         
 }
@@ -302,16 +299,11 @@ padding: 120px 0;
         column-gap: 24px;
         }
 
-.card-text-flex {
-        display: flex;
+.card-text {
         padding: 32px 16px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 8px;
         border: 1px solid #e7e9fc;
         border-top: none;
-        margin-bottom: 8px
+        
 }
 
 .project-card-title {
@@ -348,8 +340,9 @@ padding: 100px 0;
 
 .footer-text {
                 color: #F4F4FD;
-                font-weight: 400;
                 width: 264px;
+                line-height: 24px;
+                letter-spacing: 0.32px;
                 
                 
                 
@@ -357,9 +350,19 @@ padding: 100px 0;
 
 .web-futer {
         display: inline-block;
-        padding-bottom: 16px;
         padding-left: 0;
         margin-bottom: 16px;
+}
+
+.logo-footer {
+        color: #4D5AE5;
+                font-family: "Raleway", sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.17;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                display: block;
 }
               
 
